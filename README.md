@@ -25,7 +25,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: []
+- Solution URL: [https://www.frontendmentor.io/solutions/time-tracking-dashboard-using-html-ccs-javascript-json-and-flex-zJe_ntutnz]
 - Live Site URL: [https://genesisgran.github.io/time-tracking-dashboard/]
 
 ## Built with
