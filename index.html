@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="flex">
+    <main class="flex">
+      <div class="profile">
+        <div class="profile-avatar">
+          <img src="images/image-jeremy.png" alt="Avatar" />
+          <p>Report for</p>
+          <p class="name">Jeremy Robson</p>
+        </div>
+        <div class="profile-time">
+          <p id="daily-btn">Daily</p>
+          <p id="weekly-btn" class="active">Weekly</p>
+          <p id="monthly-btn">Monthly</p>
+        </div>
+      </div>
+
+      <div class="categories flex">
+        <div class="work">
+          <div class="category-text">
+            <p class="category-title">Work</p>
+            <p class="category-time" id="work-time">32hrs</p>
+            <p class="category-lastTime" id="work-lastTime">
+              Last Week - 36hrs
+            </p>
+          </div>
+        </div>
+        <div class="play">
+          <div class="category-text">
+            <p class="category-title">Play</p>
+            <p class="category-time" id="play-time">10hrs</p>
+            <p class="category-lastTime" id="play-lastTime">Last Week - 8hrs</p>
+          </div>
+        </div>
+        <div class="study">
+          <div class="category-text">
+            <p class="category-title">Study</p>
+            <p class="category-time" id="study-time">4hrs</p>
+            <p class="category-lastTime" id="study-lastTime">
+              Last Week - 7hrs
+            </p>
+          </div>
+        </div>
+        <div class="exercise">
+          <div class="category-text">
+            <p class="category-title">Exercise</p>
+            <p class="category-time" id="exercise-time">4hrs</p>
+            <p class="category-lastTime" id="exercise-lastTime">
+              Last Week - 5hrs
+            </p>
+          </div>
+        </div>
+        <div class="social">
+          <div class="category-text">
+            <p class="category-title">Social</p>
+            <p class="category-time" id="social-time">5hrs</p>
+            <p class="category-lastTime" id="social-lastTime">
+              Last Week - 10hrs
+            </p>
+          </div>
+        </div>
+        <div class="selfCare">
+          <div class="category-text">
+            <p class="category-title">Self Care</p>
+            <p class="category-time" id="selfCare-time">2hrs</p>
+            <p class="category-lastTime" id="selfCare-lastTime">
+              Last Week - 2hrs
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/GenesisGran/" target="_blank"
+        >Rafli Ichsan (Genesis Gran)</a
+      >.
+    </footer>
+  </body>
+</html>
